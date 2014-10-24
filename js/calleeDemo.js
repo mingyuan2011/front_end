@@ -1,3 +1,9 @@
+/*
+callee 的用法
+[FunctionName.]arguments.callee
+返回的是正在执行的函数
+*/
+
 
 function calleeDemo(){
 	console.log(arguments.callee);
