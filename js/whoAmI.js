@@ -22,3 +22,6 @@ whoAmI.whoAmI = whoAmI;
 whoAmI.name = "WHO AM I";
 whoAmI.whoAmI();
 // I am WHO AM I of function;
+
+({name:'Nobody', whoAmI:whoAmI}).whoAmI();
+// I'm nobody of object
