@@ -15,10 +15,14 @@
         return new jQuery.fn.init(selector, context);
     };
     
-    jQuery.prototype = {
+    jQuery.fn = jQuery.prototype = {
         init: function(selector, context){
             ///TODO
         }
     };
+
+    jQuery.fn.init.prototype = jQuery.prototype;
+    // jQuery.prototype.init.prototype = jQuery.prototype;
+
     
 })();
